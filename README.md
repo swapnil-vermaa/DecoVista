@@ -1,84 +1,46 @@
-DecoVista
-DecoVista is an eCommerce platform designed for premium decor items. This application provides a seamless shopping experience with robust backend and frontend features.
+# DecoVista
 
-Tech Stack
-Backend: Node.js, Express.js
-Frontend: React.js
-Database: MongoDB with Mongoose
-Authentication: JSON Web Tokens (JWT)
-File Uploads: Multer
-Features
-Secure User Authentication: Implemented using JSON Web Tokens (JWT).
-Efficient File Uploads: Utilized Multer for handling file uploads.
-Flexible Data Management: Managed using MongoDB and Mongoose.
-Getting Started
-Prerequisites
-Node.js and npm (Node Package Manager) installed on your machine.
-MongoDB installed and running locally or a cloud MongoDB instance.
-Installation
-Clone the Repository
+**DecoVista** is a premium eCommerce platform designed to provide an exceptional shopping experience for decor enthusiasts. It leverages modern web technologies to deliver a seamless, scalable, and secure online store for high-end decor items.
 
-bash
-Copy code
-git clone https://github.com/swapnil-vermaa/test2.git
-cd test2
-Install Backend Dependencies
+## Project Overview
 
-Navigate to the backend directory and install the required packages:
+DecoVista integrates a robust backend with a dynamic frontend to create a feature-rich online shopping platform. The backend is built using Node.js and Express.js, while the frontend is developed with React.js. The application uses MongoDB with Mongoose for data management and ensures secure user interactions through JSON Web Tokens (JWT) and efficient file uploads via Multer.
 
-bash
-Copy code
-cd backend
-npm install
-Set Up Environment Variables
+## Features
 
-Create a .env file in the backend directory and add the following environment variables:
+### Backend
 
-makefile
-Copy code
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-Replace your_mongodb_connection_string and your_jwt_secret with your MongoDB URI and a secret key for JWT authentication.
+- **Secure Authentication**: Implements user authentication using JSON Web Tokens (JWT) for secure login and registration processes.
+- **File Uploads**: Handles file uploads efficiently using Multer, allowing users to upload images and other files.
+- **Data Management**: Utilizes MongoDB for flexible and scalable data storage, with Mongoose providing a powerful ODM (Object Data Modeling) layer.
 
-Install Frontend Dependencies
+### Frontend
 
-Navigate to the frontend directory and install the required packages:
+- **User Interface**: Developed with React.js to create an interactive and responsive user experience.
+- **Integration**: Seamlessly connects with the backend to fetch data, authenticate users, and handle various eCommerce functionalities.
 
-bash
-Copy code
-cd ../frontend
-npm install
-Start the Application
+## Tech Stack
 
-Start the backend server:
+- **Backend**: Node.js, Express.js
+- **Frontend**: React.js
+- **Database**: MongoDB with Mongoose
+- **Authentication**: JSON Web Tokens (JWT)
+- **File Uploads**: Multer
 
-bash
-Copy code
-cd ../backend
-npm start
-Start the frontend development server:
+## Getting Started
 
-bash
-Copy code
-cd ../frontend
-npm start
-The frontend will be available at http://localhost:3000, and the backend will be available at http://localhost:5000.
+### Prerequisites
 
-Usage
-Frontend: Access the application through your web browser at http://localhost:3000. You can browse and purchase premium decor items.
-Backend: The backend API provides endpoints for user authentication, item management, and more.
-Contributing
-If you would like to contribute to the development of DecoVista, please fork the repository and submit a pull request with your changes.
+Ensure you have the following installed on your machine:
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+- [Node.js](https://nodejs.org/)
+- [npm (Node Package Manager)](https://www.npmjs.com/)
+- MongoDB instance (local or cloud)
 
-Acknowledgements
-Node.js
-Express.js
-React.js
-MongoDB
-Mongoose
-Multer
-jsonwebtoken
+### Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/swapnil-vermaa/test2.git
+   cd test2
