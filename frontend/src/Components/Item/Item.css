@@ -1,0 +1,82 @@
+/* Item.css */
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px; /* Set the desired width for the item */
+    padding: 10px;
+    border: 1px solid #ddd; /* Optional: Add a border to items */
+    border-radius: 10px; /* Optional: Add border radius */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+    background-color: #fff;
+  }
+  
+  .item img {
+    width: 100%;
+    height: 200px; /* Set the desired height for the image */
+    object-fit: cover; /* Ensure the image covers the area without stretching */
+  }
+  
+  .item h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .item p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+  }
+  @media(max-width:1280px){
+    .item{
+      width: 220px;
+      font-size: 14px;
+    }
+    .item img{
+      width: 220px;
+    }
+    .item-price-old{
+      font-size: 14px;
+    }
+  }
+  @media(max-width:1024px){
+    .item{
+      width: 170px;
+      font-size: 13px;
+    }
+    .item img{
+      width: 170px;
+
+    }
+    .item-price-old{
+      font-size: 13px;
+    }
+  }
+  @media(max-width:800px){
+    .item{
+      width: 120px;
+      font-size: 12px;
+    }
+    .item img{
+      width: 120px;
+
+    }
+    .item-price-old{
+      font-size: 12px;
+    }
+  }
+  @media(max-width:500px){
+    .item{
+      width: 160px;
+      
+    }
+    .item img{
+      width: 160px;
+
+    }
+    
+  }
